@@ -1,0 +1,23 @@
+# Python / Streamlit
+__pycache__/
+*.pyc
+.venv/
+.env
+.streamlit/
+
+# OS junk
+.DS_Store
+
+# Datasets / private data
+chest_xray/
+sample_images/README.txt
+
+# Outputs & big artifacts (keep small images if you want)
+outputs/history.json
+outputs/metrics.json
+outputs/roc_curve.png
+outputs/pr_curve.png
+outputs/confusion_matrix_*.png
+# If model files are large, use Git LFS instead of committing:
+# outputs/best.ckpt
+# outputs/model_traced.pt
